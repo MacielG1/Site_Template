@@ -1,3 +1,3 @@
 # Site_Template
 # Author: Gustavo Maciel
-#The Odin Project Site Template
+#The Odin Project Exercise Template Website
