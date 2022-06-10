@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Prototype</title>
 </head>
-<body>
+<body>  
     <div class="mainContainer">
         <header class="mainHeader">
+            <div class="wrapper">
             <h2>Prototype</h2>
             <nav class="navMenu">
                 <ul>
@@ -18,37 +22,70 @@
                     <li><a href="#"></a>Events</li>
                 </ul>
             </nav>
-        </header>
-        <main id="main">
-            <div class="Text">
-            <h1>Website Prototype</h1>
-           <p> This website is a prototype with a purpose of being used as practice for positioning and designing elements on a webpage.</p>
-            <button type="button">More info</button>
         </div>
-            <div class="mainImg">
-                <img src="images/mainpic.jpg" alt="Wallpaper">
+        </header>
+        <main>
+            <div class="wrapper">
+                <div class="main">
+            <div class="Text">
+            <h1>Website Title</h1>
+           <p> This website is a prototype with a purpose of being used as practice for positioning and designing elements on a webpage.</p>
+            <button class="morebtn"type="button">More info</button>
+        </div>
+                <img class="mainImg" src="images/mainpic.jpg" alt="Wallpaper">
+
+        </div>
             </div>
         </main>
-        <section>
+        <section class="Imagery">
+            <div class="wrapper">
             <h2>Examples</h2>
+            <div class="imgs">
             <div class="art1">
                 <img src="images/art1.jpg" alt="bike">
-                <h3></h3>
+                <h3>Bike</h3>
             </div>
             <div class="art2">
                 <img src="images/art2.jpg" alt="Nature">
-                <h3></h3>
+                <h3>Nature</h3>
             </div>
             <div class="art3">
                 <img src="images/art3.jpg" alt="food">
-                <h3></h3>
+                <h3>Bird</h3>
             </div>
             <div class="art4">
                 <img src="images/art4.jpg" alt="art">
-                <h3></h3>
+                <h3>Artwork</h3>
             </div>
+        </div>
+            </div>
+                
+        </section>
+        <section id="quoteSection">
+            <div class="wrapper">
+            <div class="quote">
+            <p>A system of morality which is based on relative emotional values is a mere illusion, a thoroughly vulgar conception which has nothing sound in it and nothing true.</p>
+            <p class="author">- Socrates</p>
+        </div>
+        </div>
         </section>
 
+        <section class="signup">
+            <div class="wrapper">
+            <div class="block">
+                <div class="signtext">
+                <h4>Are you Satisfied?</h4>
+                <p>It's time to signup to check more content</p>
+            </div>
+                <button class="signbtn" type="button"><a href="#">SIGN UP</a></button>
+            </div>
+            </div>
+        </section>
+        <footer class="mainFooter">
+            <div class="wrapper">
+            <h5>Copyright &copy; - 2022</h5>
+            </div>
+        </footer>
     </div>
 
 

@@ -1,3 +1,263 @@
-img {
-    width: 300px;
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body {
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+    font-size: 1rem;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1500px;
+    height: 100%;
+}
+.mainHeader .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+
+    
+    
+}
+.mainHeader {
+    width: 100%;
+    background-color: #142033;
+    color: rgb(255, 255, 255);
+    height: 50px;
+    
+    
+}
+.mainHeader h2 {
+    font-size: 2rem;
+    margin-left: 30px;
+    font-weight: 700;
+    font-weight: 400;
+}
+.navMenu ul {
+    display: flex;
+    gap: 25px;
+}
+.navMenu  {
+    font-size: 1.3rem;
+}
+
+
+main {
+    background-color: #142033;
+    color: rgb(255, 255, 255);
+    
+}
+.main {
+    height: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.Text h1 {
+    font-size: 2.5rem;
+    padding-left: 65px;
+    margin: 10px 0;
+}
+.Text p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+
+}
+.mainImg {
+    width: 30%;
+    border-radius: 12px;
+}
+.Text {
+    width: 400px
+}
+
+.morebtn {
+    background-color: #266de0;
+    border: 2px solid rgb(39, 39, 39);
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 3px 14px;
+    margin: 0 105px;
+    text-align: center;
+}
+
+.Imagery {
+    height: 320px;
+    width: 100%;
+    margin-bottom: 50px;
+
+   
+}
+.Imagery h2 {
+    padding: 10px 0;
+    margin: 10px 0;
+    font-size: 2.5rem;
+    text-align: calc();
+    margin: 15px 0;
+}
+.Imagery h3{
+    margin: 4px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.Imagery .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.Imagery .imgs{
+    margin-top: 5px;
+    display: flex;
+    gap: 18px;
+    
+    
+}
+.Imagery img {
+    
+    width: 250px;
+    height: 160px;
+    border-radius: 20px;
+  
+}
+
+#quoteSection {
+    height: 290px;
+    width: 100%;
+    background-color: #cecfcf;
+}
+
+#quoteSection .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quote{
+    font-size: 1.8rem;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.quoteSection .author {
+    font-weight: 300;
+    margin-right: 50px;
+   justify-content: flex-end;
+   align-items: flex-end;
+   font-size: 1.8rem;
+} 
+.signup {
+    height: 320px;
+    width: 100%;
+
+}
+.signup .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 10px;
+    font-size: 1.6rem;
+    width: 70%;
+    height: 50%;
+    background-color: #266de0;
+    color: white;
+    border-radius: 15px;
+    gap: 12px;
+
+}
+.signtext {
+    display: flex;
+    flex-direction: column;
+}
+
+.signbtn {
+    background-color: #266de0;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 3px 14px;
+    margin: 0 105px;
+    text-align: center;
+}
+.signbtn a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.mainFooter {
+    height: 100px;
+    width: 100%;
+    color: white;
+    background-color: #142033;
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+.mainFooter .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
